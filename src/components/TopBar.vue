@@ -2,17 +2,17 @@
     <div>
         <v-navigation-drawer v-model="drawer" absolute temporary app width="150" height="340">
             <v-list class="pt-4">
-                <v-list-item active-class="primary--text" to="/">
+                <v-list-item active-class="primary--text">
                     <v-list-item-content>
                         <v-list-item-title>Lorem Ipsum</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
-                <v-list-item active-class="primary--text" to="/resume">
+                <v-list-item active-class="primary--text">
                     <v-list-item-content>
                         <v-list-item-title>Lorem Ipsum</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
-                <v-list-item active-class="primary--text" to="/research">
+                <v-list-item active-class="primary--text">
                     <v-list-item-content>
                         <v-list-item-title>Lorem Ipsum</v-list-item-title>
                     </v-list-item-content>
@@ -27,10 +27,9 @@
             </v-app-bar-title>
             <v-spacer></v-spacer>
             <v-app-bar-title class="hidden-sm-and-down">
-                <v-btn plain to="/" active-class="primary--text headline">Home</v-btn>
-                <v-btn plain to="/resume" active-class="primary--text headline">Lorem Ipsum</v-btn>
-                <v-btn plain to="/research" active-class="primary--text headline">Lorem Ipsum</v-btn>
-                
+                <v-btn plain active-class="primary--text headline">Lorem Ipsum</v-btn>
+                <v-btn plain active-class="primary--text headline">Lorem Ipsum</v-btn>
+                <v-btn plain active-class="primary--text headline">Lorem Ipsum</v-btn>
             </v-app-bar-title>
         </v-app-bar>
     </div>
@@ -39,13 +38,6 @@
 <script>
 export default {
     props: {
-        goDark: {
-            type: Boolean
-        },
-        blue: {
-            type: String,
-            default: "#FF00FF"
-        }
     },
     data() {
         return {
@@ -57,6 +49,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 </style>
