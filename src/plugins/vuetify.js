@@ -6,14 +6,14 @@ export default new Vuetify({
     themes: {
       light: {
         primary: "#FFFFFF",
-        secondary: "#B85C38",
-        accent: "#82B1FF",
-        error: "#FF5252",
-        info: "#2196F3",
-        success: "#4CAF50",
-        warning: "#FFC107",
-        background: '#FAFAFA',
-        anchor: '#0066CC'
+        secondary: "#FFFFFF",
+        accent: "#FFFFFF",
+        error: "#FFFFFF",
+        info: "#FFFFFF",
+        success: "#FFFFFF",
+        warning: "#FFFFFF",
+        background: '#FFFFFF',
+        anchor: '#FFFFFF'
       },
     },
   },
