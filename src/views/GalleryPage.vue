@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
+    <div style="background-image: url('./prova.jpg');" class="hero-wrap ">
         <TopBar />
         GALLERY
     </div>
@@ -14,7 +14,7 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets/logo.png'
+            image: 'src/assets./logo.png'
         }
     }
 }

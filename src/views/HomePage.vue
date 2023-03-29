@@ -1,10 +1,10 @@
 <template>
-    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
+    <div style="background-image: url('./prova.jpg');" class="hero-wrap ">
         <TopBar />
 
         <v-layout row justify-end align-end wrap class="mt-4 pt-2">
             <v-flex justify-end align-end xs12 sm12 md12 lg4 l4 class="pt-4">
-                <v-img class="mx-auto" src="/logo.png" max-width="20vw" />
+                <v-img class="mx-auto" src="./logo.png" max-width="20vw" />
                 <h2>
                     <div class="text-center primary--text">Maggiore Barber</div>
                     <div class="text-center white--text">Maggiore Barber</div>
@@ -14,7 +14,7 @@
         <div>
             <v-layout row justify-start align-start wrap>
                 <v-flex justify-end align-end xs12 sm12 md12 lg3 l3 class="pt-4" style="background:#FF0000;color:white">
-                    <v-img class="mx-auto" style="border-radius: 50%;" src="/logo.png" max-width="20vw" />
+                    <v-img class="mx-auto" style="border-radius: 50%;" src="./logo.png" max-width="20vw" />
                     <h2>
                         <div class="text-center primary--text">Maggiore Barber</div>
                     </h2>
@@ -29,7 +29,7 @@
                     </h3>
                 </v-flex>
                 <v-flex justify-end align-end xs12 sm12 md12 lg3 l3 class="pt-4" style="background:#0000FF;color:white">
-                    <v-img class="mx-auto" style="border-radius: 50%;" src="/logo.png" max-width="20vw" />
+                    <v-img class="mx-auto" style="border-radius: 50%;" src="./logo.png" max-width="20vw" />
                     <h2>
                         <div class="text-center primary--text">Maggiore Barber</div>
                     </h2>
@@ -44,7 +44,7 @@
                     </h3>
                 </v-flex>
                 <v-flex justify-end align-end xs12 sm12 md12 lg3 l3 class="pt-4" style="background:#FF0000;color:white">
-                    <v-img class="mx-auto" style="border-radius: 50%;" src="/logo.png" max-width="20vw" />
+                    <v-img class="mx-auto" style="border-radius: 50%;" src="./logo.png" max-width="20vw" />
                     <h2>
                         <div class="text-center primary--text">Maggiore Barber</div>
                     </h2>
@@ -59,7 +59,7 @@
                     </h3>
                 </v-flex>
                 <v-flex justify-end align-end xs12 sm12 md12 lg3 l3 class="pt-4" style="background:#0000FF;color:white">
-                    <v-img class="mx-auto" style="border-radius: 50%;" src="/logo.png" max-width="20vw" />
+                    <v-img class="mx-auto" style="border-radius: 50%;" src="./logo.png" max-width="20vw" />
                     <h2>
                         <div class="text-center primary--text">Maggiore Barber</div>
                     </h2>
@@ -88,7 +88,7 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets/logo.png'
+            image: 'src/assets./logo.png'
         }
     }
 }

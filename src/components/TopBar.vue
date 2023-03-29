@@ -29,7 +29,7 @@
             <v-flex justify-center align-center xs12 sm12 md12 lg10 l10 class="pt-4">
                 <v-app-bar flat dense color="transparent">
                     <v-app-bar-title class="headline">
-                        <v-img class="mx-auto" style="border-radius: 50%; height: 100px; width: 100px;" src="/logo.png" />
+                        <v-img class="mx-auto" style="border-radius: 50%; height: 100px; width: 100px;" src="./logo.png" />
                     </v-app-bar-title>
                     <v-spacer></v-spacer>
                     <v-app-bar-nav-icon class="hidden-md-and-up" style="color: #FFFFFF"

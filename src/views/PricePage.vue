@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
+    <div style="background-image: url('./prova.jpg');" class="hero-wrap ">
         <TopBar />
         <v-layout row justify-center align-center wrap class="mt-4 pt-2">
             <v-flex justify-center align-center xs12 sm12 md12 lg8 l8 class="pt-4">
@@ -38,7 +38,7 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets/logo.png',
+            image: 'src/assets./logo.png',
             items: [
                 {
                     title: 'Title 1',

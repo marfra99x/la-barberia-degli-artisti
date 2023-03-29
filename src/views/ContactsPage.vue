@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
+    <div style="background-image: url('./prova.jpg');" class="hero-wrap ">
         <TopBar />
         <v-layout row justify-start align-start wrap class="mt-4 pt-2">
             <v-layout column justify-center align-center wrap class="mt-4 pt-2">
@@ -70,7 +70,7 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets/logo.png'
+            image: 'src/assets./logo.png'
         }
     }
 }
