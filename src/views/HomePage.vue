@@ -1,18 +1,16 @@
 <template>
-    <div>
-        <section class="bg-image" style="background-image: url('/prova.jpg'); display:block; background-size: 100%">
-            <TopBar />
+    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
+        <TopBar />
 
-            <v-layout row justify-end align-end wrap class="mt-4 pt-2">
-                <v-flex justify-end align-end xs12 sm12 md12 lg4 l4 class="pt-4">
-                    <v-img class="mx-auto" src="/logo.png" max-width="20vw" />
-                    <h2>
-                        <div class="text-center primary--text">Maggiore Barber</div>
-                        <div class="text-center white--text">Maggiore Barber</div>
-                    </h2>
-                </v-flex>
-            </v-layout>
-        </section>
+        <v-layout row justify-end align-end wrap class="mt-4 pt-2">
+            <v-flex justify-end align-end xs12 sm12 md12 lg4 l4 class="pt-4">
+                <v-img class="mx-auto" src="/logo.png" max-width="20vw" />
+                <h2>
+                    <div class="text-center primary--text">Maggiore Barber</div>
+                    <div class="text-center white--text">Maggiore Barber</div>
+                </h2>
+            </v-flex>
+        </v-layout>
         <div>
             <v-layout row justify-start align-start wrap>
                 <v-flex justify-end align-end xs12 sm12 md12 lg3 l3 class="pt-4" style="background:#FF0000;color:white">
@@ -97,7 +95,21 @@ export default {
 </script>
 
 
-<style>@import url('https://fonts.cdnfonts.com/css/luminari');
+<style>
+@import url('https://fonts.cdnfonts.com/css/luminari');
 @import url('https://fonts.cdnfonts.com/css/eggnog');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/barfiola-free-for-personal-use');</style>
+@import url('https://fonts.cdnfonts.com/css/barfiola-free-for-personal-use');
+
+.hero-wrap {
+    width: 100%;
+    height: 850px;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    position: relative;
+    z-index: 0;
+}
+</style>

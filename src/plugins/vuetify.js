@@ -13,7 +13,7 @@ export default new Vuetify({
         success: "#FFFFFF",
         warning: "#FFFFFF",
         background: '#FFFFFF',
-        anchor: '#FFFFFF'
+        anchor: '#000000'
       },
     },
   },
