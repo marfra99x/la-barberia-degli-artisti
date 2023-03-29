@@ -88,7 +88,6 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets./logo.png'
         }
     }
 }

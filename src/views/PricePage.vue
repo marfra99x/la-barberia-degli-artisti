@@ -38,7 +38,6 @@ export default {
     },
     data() {
         return {
-            image: 'src/assets./logo.png',
             items: [
                 {
                     title: 'Title 1',
