@@ -1,20 +1,20 @@
 <template>
   <v-app>
       <v-main>
-              <router-view />
+          <router-view />
       </v-main>
-      <FooterBar/>
-  </v-app>
+      <!-- <FooterBar/> -->
+    </v-app>
 </template>
 
 <script>
-import FooterBar from './components/FooterBar.vue';
-
+// import FooterBar from './components/FooterBar.vue';
+// 
 export default {
   name: 'App',
 
   components: {
-      FooterBar: FooterBar,
+      // FooterBar: FooterBar,
   },
 
   methods: {

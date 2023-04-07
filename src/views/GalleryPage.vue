@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('./prova.jpg');" class="hero-wrap ">
+    <div style="background-image: url('/prova.jpg');" class="hero-wrap ">
         <TopBar />
         GALLERY
     </div>
